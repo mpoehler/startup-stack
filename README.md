@@ -16,6 +16,7 @@ I use always the same stack (branch is in parenthesis):
 *  Sendgrid for sending Mails
 *  Progressive Webapp (Caches the VueJS-Frontend, beeing offline usable)
 *  Material-Design-Components as Design Framework (add-material-design-components)
+*  auto-deployment using gitlab pipelines
 
 When starting a new project just fork this project and merge the needed branches together. 
 You should get a fully working app in less than a day. 
