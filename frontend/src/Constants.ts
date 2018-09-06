@@ -11,6 +11,7 @@ export class Constants {
 
     /**
      * Google Tag Manager Container ID
+     * Don't forget to add the container ID in public/index.html
      */
     public static readonly GTM_ID: string = 'GTM-NXV7QBH';
 
