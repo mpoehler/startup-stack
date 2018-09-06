@@ -38,3 +38,7 @@ Adds a typed vuex to the initial configuration
 ### add-material-design-components
 
 Adds material-design-components to the initial configuration
+
+### add-google-analytics-with-gdpr
+
+Adds Google-Analytics Tracking and a View to fullfill the GDPR requirements (without warranty)
