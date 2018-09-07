@@ -1,26 +1,21 @@
-
-
-
-
 import { Constants } from './Constants';
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import VueGtm from 'vue-gtm';
 import store from './store';
 import './registerServiceWorker';
+import VueTagManager from 'vue-tag-manager';
 
 const disableStr = `ga-disable-${Constants.GA_ID}`;
 if (document.cookie.indexOf(disableStr + '=true') > -1) {
   (window as any)[disableStr] = true;
 }
 
-Vue.config.productionTip = false;
+// TURN THIS OFF IN PRODUCTION
+Vue.config.productionTip = true;
 
-Vue.use(VueGtm, {
-  id: Constants.GTM_ID, // Your GTM ID
-  debug: true,          // Whether or not display console logs debugs (optional)
-  vueRouter: router,
+Vue.use(VueTagManager, {
+    gtmId: Constants.GTM_ID,
 });
 
 new Vue({

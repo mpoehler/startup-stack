@@ -3,7 +3,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/privacy">Privacy</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <button @click="$gtm.push({ event: 'some-event' })">Event</button>
     </div>
     <router-view/>
   </div>
