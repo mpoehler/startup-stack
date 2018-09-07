@@ -16,7 +16,8 @@ export class Constants {
     public static readonly GTM_ID: string = 'GTM-NXV7QBH';
 
     /**
-     * Google Analytics ID (normally defined in Tagmanager, here only used for opted-out)
+     * Google Analytics ID (normally defined in Tagmanager, here only needed for Google
+     * Analytics opted-out Button in Privacy View)
      */
     public static readonly GA_ID: string = 'UA-103862978-1';
 
