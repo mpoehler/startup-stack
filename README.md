@@ -23,9 +23,20 @@ I use always the same stack (branch is in parenthesis):
 When starting a new project just fork this project and merge the needed branches together. 
 You should get a fully working app in less than a day. 
 
-Here is a description of the currently available branches:
+Here you can see how the branches relate to each other. You can find a short description below. For more details check the branchs README.
 
-## master 
+```
+master
++- initial
+   +- add-typed-vuex
+      +- add-Firestore
+      +- add-auth
+      +- add-magic-signin-links
+   +- add-material-design-components
+   +- add-google-tag-manager-with-gdpr
+```
+
+## master
 
 nothing except the README.
 
@@ -33,14 +44,26 @@ nothing except the README.
 
 This is a plain firebase project, configured with cloud functions and a plain vueJS project configured in the frontend folder. Cloud Functions and VueJs project are used with Typescript and Hot-Reloading is enabled everywhere. You can run it by run `npm run serve`.
 
-### add-typed-vuex
+## add-typed-vuex
 
 Adds a typed vuex to the initial configuration
 
-### add-material-design-components
+## add-Firestore
+
+Adds Firestore usage. 
+
+## add-auth
+
+Adds a login screen and all necessary parts for login with facebook/twitter. 
+
+## add-magic-signin-links 
+
+adds a cloud function that creates a link for a given user that signs that user in without seeing a login screen. Useful in emails, but also a threat to security.
+
+## add-material-design-components
 
 Adds material-design-components to the initial configuration
 
-### add-google-tag-manager-with-gdpr
+## add-google-tag-manager-with-gdpr
 
 Adds Google Tag Manager and a View to fullfill the GDPR requirements (without warranty).
