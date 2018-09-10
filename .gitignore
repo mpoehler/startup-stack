@@ -61,7 +61,7 @@ typings/
 .next
 
 # public is build by vueJs
-public/
+/public/
 
 # functions/lib is created by ts for the cloud functions
 functions/lib/
