@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Watch } from 'vue-property-decorator';
+import { Component, Vue } from 'vue-property-decorator';
 import { State, Action } from 'vuex-class';
 import { ProfileState, User } from '../store/profile/types';
 
