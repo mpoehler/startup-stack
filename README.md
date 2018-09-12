@@ -30,8 +30,8 @@ master
 +- initial
    +- add-typed-vuex
       +- add-Firestore
-      +- add-auth
-      +- add-magic-signin-links
+        +- add-auth
+          +- add-magic-signin-links
    +- add-material-design-components
    +- add-google-tag-manager-with-gdpr
 ```
